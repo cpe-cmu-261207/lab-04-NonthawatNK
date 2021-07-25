@@ -1,11 +1,8 @@
 
-
 const input = document.querySelector('input')
-
 
 const mainDiv = document.querySelector('#center')
 const doneDiv = document.querySelector('#done')
-
 
 let todolist = []
 let donelist = []
