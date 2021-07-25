@@ -5,15 +5,30 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	<script src='script.js' defer></script>
 	<title>Lab 04</title>
-	<!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
 </head>
 
-<body>
-	<h1>Minimal Todo List</h1>
-	<input  type='text'>
-	<button>+</button>
+<body class="bg-blue-200">
+<!-- ใส่สี -->
+	<div>
+		<!-- เนื่อหา -->
+		<div class="bg-white py-10 px-1 max-w-screen-xl mx-auto space-y-10  ">
+			<h6>Minimal todo list</h6>
+		</div>
+		
+		<div>
+			<input class="py-3 px-4 bg-white rounded-lg placeholder-gray-400 text-gray-900 appearance-none inline-block w-50 focus:outline-none  focus:ring-blue-600" type='text'>
+
+			<button class = "py-2 px-3 bg-white rounded-lg placeholder-gray-400 text-gray-900 appearance-none inline-block  shadow-md   focus:ring-blue-600">+</button>
+		</div>
+
+	</div>
+
 </body>
 
 </html>
